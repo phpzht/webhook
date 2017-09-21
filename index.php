@@ -1,9 +1,9 @@
 <?php
 $config = [
-'password' => 'password',    //码云webhook密码
+'password' => 'password',    					//码云webhook密码
 	'projects' => [
-	'branch' => 'master',
-	'web_path' => '/data/www/testnhb',    //服务器项目路径
+	'branch' => 'master',    					//分支
+	'web_path' => '/data/www/testnhb',    		//服务器项目路径
 	],
 	];
 header("Content-type:text/html; charset=utf-8");
